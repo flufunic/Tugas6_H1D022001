@@ -42,3 +42,5 @@ import { Component } from '@angular/core';
 export class ExampleComponent {
   alertButtons = ['Action'];
 }
+
+![click me](form_registrasi.png)
