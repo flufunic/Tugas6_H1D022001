@@ -1,0 +1,47 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#card {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.centered-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gradient-card {
+  --background: linear-gradient(45deg, #feae00, #fded61);
+  width: 90%; /* Sesuaikan ukuran kartu */
+  max-width: 400px; /* Batas maksimum agar kartu tidak terlalu besar */
+  margin: auto;
+}
